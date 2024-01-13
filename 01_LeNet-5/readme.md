@@ -13,3 +13,17 @@
 - It was used for the handwritten digit recognition task with the MNIST dataset.
 
 - **The architectural design served as inspiration for future networks such as `AlexNet` and `VGG`.**
+
+---
+
+## Special note ❤️📝
+
+- I struggled a lot while training `LeNet` on `MNIST` dataset 😢.
+- My model was not even training, `loss in each epoch` seemed to stuck at `0.57` and even after 20 epochs, accuracy was merely 50%.
+- Finally, after 1-2 hours of asking `Bard` & `ChatGPT`, I figured out, the issue was with the `learning rate of the optimizer`.
+- `MNIST` dataset is very small and needs very small `learning rate (0.0001)`. Default `lr of adam (0.001)` is much higher (10 times), and I was initially trying with `learning rate of 0.1`. 🤓
+
+![learning rate](../00_assets/learning_rate.png)
+
+- Anyways, I hope this small note on my experience will help you remember the concept of `having very high learning rate`. I studied about this while taking `Andrew NG sir's ML & DL course`. But, **`nothing teaches you more than hours of irritation.`** 🏋🏻
+- Have a good day! 🥳
