@@ -13,7 +13,10 @@
 ### Comparison with LeNet 🤭
 
 ![LeNet Vs AlexNet](../00_assets/Comparison_image_neural_networks.svg.png)
-<span style="color:red">>>> Give special attention on the `dropout layers` in FC layers</span>
+
+```diff
+- >>> Give special attention on the `dropout layers` in FC layers
+```
 
 <br/>
 
