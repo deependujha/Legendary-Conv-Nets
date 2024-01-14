@@ -25,4 +25,6 @@
 
 - They also used the **dropout layers, that prevented their model from overfitting**.
 
+- `AlexNet` also used `Local Response Normalization`, which is basically a way to normalize values in the channels (since relu activation output has no max limit). But, many researchers have found this method to **not to be so effective**.
+
 - The model is trained on the Imagenet dataset. The Imagenet dataset has almost 14 million images across a thousand classes.
